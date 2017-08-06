@@ -7,9 +7,10 @@ import {Tab,
     TabBarItem,
     TabBarIcon,
     TabBarLabel,
-    Article,Button} from 'react-weui'
+    Article,Button, Page} from 'react-weui'
 import 'weui';
 import './react-weui.css';
+import GridDemo from './GridDemo';
 
 
 import IconButton from './icon_nav_cell.png';
@@ -38,19 +39,16 @@ export default class TabBarAutoDemo extends React.Component {
                     </Article>
                 </TabBarItem>
                 <TabBarItem icon={<img src={IconMsg}/>} label="Tab2">
-                    <Article>
+                    <div className="grid">
                         <h1>Page 2</h1>
                         <section>
                             <h2 className="title">Heading</h2>
                             <section>
                                 <h3>2.1 Title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute</p>
+                                <GridDemo />
                             </section>
                         </section>
-                    </Article>
+                    </div>
                 </TabBarItem>
                 <TabBarItem icon={<img src={IconArticle}/>} label="Tab3">
                     <Article>
