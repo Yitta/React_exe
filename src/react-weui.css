@@ -1,5 +1,10 @@
 .user1 {
 position:fixed;
 bottom: 0;
-height: 100%
+height: 100%;
+width: 100%;
+}
+
+.weui-grid a {
+	padding: 10px
 }
