@@ -5,7 +5,7 @@ import {
 import iconSrc from './icon_tabbar.png';
 
 const BadgeDemo = (props) => (
-    <div>
+    <Page className="cell" title="Personal Page">
         <CellsTitle>Personal Page</CellsTitle>
         <Cells>
             <Cell>
@@ -42,7 +42,7 @@ const BadgeDemo = (props) => (
                 <CellFooter />
             </Cell>
         </Cells>
-    </div>
+    </Page>
 );
 
 export default BadgeDemo;
