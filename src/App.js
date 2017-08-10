@@ -13,6 +13,7 @@ import './react-weui.css';
 import GridDemo from './GridDemo';
 import BadgeDemo from './BadgeDemo';
 import PanelDemo from './PanelDemo';
+import MapContainer from './MapContainer';
 
 
 import IconButton from './icon_nav_cell.png';
@@ -32,10 +33,7 @@ export default class TabBarAutoDemo extends React.Component {
                             <section>
                                 <h3>1.1 Title</h3>
                                 <Button>hello</Button>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute</p>
+                                <MapContainer />
                             </section>
                         </section>
                     </Article>
