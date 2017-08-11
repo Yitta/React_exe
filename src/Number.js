@@ -1,12 +1,11 @@
 import styled from 'styled-components';
-import Image from './mbbg.png';
 
 export default styled.div`
   background-color: pink;
   background-size: 100% auto;
   background-repeat:no-repeat;
-  height: 200px;
   display: flex;
+  text-align: right;
   justify-content: space-between;
   color: white;
 `;
