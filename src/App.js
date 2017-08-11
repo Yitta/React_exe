@@ -14,7 +14,7 @@ import GridDemo from './GridDemo';
 import BadgeDemo from './BadgeDemo';
 import PanelDemo from './PanelDemo';
 import MapContainer from './MapContainer';
-
+import AccountPanel from './Account';
 
 import IconButton from './icon_nav_cell.png';
 import IconMsg from './icon_nav_msg.png';
@@ -55,7 +55,7 @@ export default class TabBarAutoDemo extends React.Component {
                 <TabBarItem icon={<img src={IconArticle}/>} label="Tab3">
                     <div>
                         <section>
-                                <BadgeDemo />
+                                <AccountPanel />
                                 <PanelDemo />
                         </section>
                     </div>
