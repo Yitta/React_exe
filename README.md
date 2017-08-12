@@ -1,6 +1,8 @@
 # Web App with React.js
 This project was a small web app using React.js as the front-end.
-The update logs as follow:
+Set up with [Create React App](https://github.com/facebookincubator/create-react-app)
+Great UI framework [React-WEUI](https://github.com/weui/react-weui)
+####The update logs as follow:
 - 05/08 Set up project
 - 06/08 add Tab Bar
 - 09/08 add account page (lists)
