@@ -10,6 +10,7 @@ Great UI framework [React-WEUI](https://github.com/weui/react-weui)
 - 10/08 init map container
 - 11/08 add calculator (girds)
 - 12/08 modify README.md for better use
+- 13/08 add clickable marks on map
 ## Installation and Start
 ### Browser
 ```

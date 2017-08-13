@@ -25,7 +25,7 @@ export default class TabBarAutoDemo extends React.Component {
         return (
           <div className="user1">
             <Tab type="tabbar">
-                <TabBarItem icon={<img src={IconMsg}/>} label="Map">
+                <TabBarItem icon={<img src={IconButton}/>} label="Map">
                     <div className="grid">
                         <MapContainer />      
                     </div>
@@ -38,7 +38,7 @@ export default class TabBarAutoDemo extends React.Component {
                         </section>
                     </div>
                 </TabBarItem>
-                <TabBarItem icon={<img src={IconButton}/>} label="Calc">
+                <TabBarItem icon={<img src={IconMsg}/>} label="Calc">
                     <div>
                         <section>
                             <GridDemo />    
