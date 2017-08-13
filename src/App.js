@@ -25,32 +25,23 @@ export default class TabBarAutoDemo extends React.Component {
         return (
           <div className="user1">
             <Tab type="tabbar">
-                <TabBarItem icon={<img src={IconButton}/>} label="主页">
-                    <Article>
-                        <h1>Page 1</h1>
-                        <section>
-                            <h2 className="title">Heading</h2>
-                            <section>
-                                <h3>1.1 Title</h3>
-                                <Button>hello</Button>
-                                <MapContainer />
-                            </section>
-                        </section>
-                    </Article>
-                </TabBarItem>
-                <TabBarItem icon={<img src={IconMsg}/>} label="地图">
+                <TabBarItem icon={<img src={IconMsg}/>} label="Map">
                     <div className="grid">
-                 
-                        
-                                <GridDemo />
-                               
+                        <MapContainer />      
                     </div>
                 </TabBarItem>
-                <TabBarItem icon={<img src={IconArticle}/>} label="个人中心">
+                <TabBarItem icon={<img src={IconArticle}/>} label="Account">
                     <div>
                         <section>
                                 <AccountPanel />
                                 <PanelDemo />
+                        </section>
+                    </div>
+                </TabBarItem>
+                <TabBarItem icon={<img src={IconButton}/>} label="Calc">
+                    <div>
+                        <section>
+                            <GridDemo />    
                         </section>
                     </div>
                 </TabBarItem>

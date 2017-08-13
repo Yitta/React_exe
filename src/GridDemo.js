@@ -49,7 +49,7 @@ const data = Array.from(m)
 const GridDemo = (props) => (
 	<div>
 	<UserPanel>
-	    <Page className="flex" spacing>
+	    <div className="flex" spacing>
 	        <Flex>
 	            <FlexItem>
 	                <div  style={{fontSize: '30'}}>请输入消费金额:</div>
@@ -57,10 +57,10 @@ const GridDemo = (props) => (
 	        </Flex>
 	        <Flex>
 	            <FlexItem>
-	                <div style={{fontSize: '30', float: "right"}}>0</div>
+	                <div id="calc" style={{fontSize: '30', float: "right"}}>0</div>
 	            </FlexItem>
 	        </Flex>
-	    </Page>
+	    </div>
 	  </UserPanel>
         <Grids data={data}/>
         <Cell>
