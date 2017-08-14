@@ -1,7 +1,6 @@
 # Web App with React.js
 This project was a small web app using React.js as the front-end.
-Set up with [Create React App](https://github.com/facebookincubator/create-react-app)
-Great UI framework [React-WEUI](https://github.com/weui/react-weui)
+Set up with [Create React App](https://github.com/facebookincubator/create-react-app) and Great UI framework [React-WEUI](https://github.com/weui/react-weui)
 
 - 05/08 Prepare existing code
 - 06/08 set up repository
