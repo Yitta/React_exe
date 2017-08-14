@@ -3,10 +3,9 @@ This project was a small web app using React.js as the front-end.
 Set up with [Create React App](https://github.com/facebookincubator/create-react-app)
 Great UI framework [React-WEUI](https://github.com/weui/react-weui)
 
-### Update Log
 - 05/08 Prepare existing code
 - 06/08 set up repository
-- 
+### Update Log
 - 09/08 add account page (lists)
 - 10/08 init map container
 - 11/08 add calculator (girds)
