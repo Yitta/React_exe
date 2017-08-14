@@ -4,13 +4,15 @@ Set up with [Create React App](https://github.com/facebookincubator/create-react
 Great UI framework [React-WEUI](https://github.com/weui/react-weui)
 
 ### Update Log
-- 05/08 Set up project
-- 06/08 add Tab Bar
+- 05/08 Prepare existing code
+- 06/08 set up repository
+- 
 - 09/08 add account page (lists)
 - 10/08 init map container
 - 11/08 add calculator (girds)
 - 12/08 modify README.md for better use
 - 13/08 add clickable marks on map
+- 14/08 add detail information box on map
 ## Installation and Start
 ### Browser
 ```
