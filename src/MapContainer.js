@@ -1,5 +1,6 @@
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import React, { Component } from 'react';
+import Panel from './Panel';
 
 const MapContainer = React.createClass({
   getInitialState: function() {
@@ -54,20 +55,16 @@ const MapContainer = React.createClass({
           name={'Dolores park'}
           position={{lat: 37.759703, lng: -122.428093}} />
         <Marker onClick={this.onMarkerClick}
-                name={'Current location'} />
+                name={'Restaurant'} />
 
         <InfoWindow
           marker={this.state.activeMarker}
           visible={this.state.showingInfoWindow}
           onClose={this.onInfoWindowClose}>
             <div>
-              <h1>{this.state.selectedPlace.name}</h1>
+              <p>{this.state.selectedPlace.name}</p>
+              <Panel />
             </div>
-        </InfoWindow>
-
-        <InfoWindow
-          position={{lat: 37.765703, lng: -122.425640}}
-          visible={true}>
         </InfoWindow>
       </Map>
     )
