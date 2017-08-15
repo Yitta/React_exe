@@ -53,6 +53,7 @@ const MapContainer = React.createClass({
         <Marker
           onClick={this.onMarkerClick}
           name={'Dolores park'}
+          description={'main'}
           position={{lat: 37.759703, lng: -122.428093}} />
         <Marker onClick={this.onMarkerClick}
                 name={'Restaurant'} />
@@ -62,7 +63,7 @@ const MapContainer = React.createClass({
           visible={this.state.showingInfoWindow}
           onClose={this.onInfoWindowClose}>
             <div>
-              <Panel name={this.state.selectedPlace.name}/>
+              <Panel name={this.state.selectedPlace.name} des={this.state.selectedPlace.description}/>
             </div>
         </InfoWindow>
       </Map>

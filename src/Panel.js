@@ -42,8 +42,7 @@ export default class PanelDemo extends React.Component {
                             <MediaBoxBody>
                                 <MediaBoxTitle>{this.props.name}</MediaBoxTitle>
                                 <MediaBoxDescription>
-                                Location:
-                                Description:
+                                Description:{this.props.des}
                                 </MediaBoxDescription>
                             </MediaBoxBody>
                         </MediaBox>
