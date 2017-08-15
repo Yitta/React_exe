@@ -11,6 +11,7 @@ Set up with [Create React App](https://github.com/facebookincubator/create-react
 - 12/08 modify README.md for better use
 - 13/08 add clickable marks on map
 - 14/08 add detail information box on map
+- 15/08 use props and state for data transfer
 ## Installation and Start
 ### Browser
 ```

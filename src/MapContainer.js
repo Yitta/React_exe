@@ -62,7 +62,6 @@ const MapContainer = React.createClass({
           visible={this.state.showingInfoWindow}
           onClose={this.onInfoWindowClose}>
             <div>
-              <p>{this.state.selectedPlace.name}</p>
               <Panel name={this.state.selectedPlace.name}/>
             </div>
         </InfoWindow>
