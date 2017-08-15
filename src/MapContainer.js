@@ -63,7 +63,7 @@ const MapContainer = React.createClass({
           onClose={this.onInfoWindowClose}>
             <div>
               <p>{this.state.selectedPlace.name}</p>
-              <Panel />
+              <Panel name={this.state.selectedPlace.name}/>
             </div>
         </InfoWindow>
       </Map>

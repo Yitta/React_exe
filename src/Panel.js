@@ -40,7 +40,7 @@ export default class PanelDemo extends React.Component {
                         <MediaBox type="appmsg" href="javascript:void(0);">
                             <MediaBoxHeader>{appMsgIcon}</MediaBoxHeader>
                             <MediaBoxBody>
-                                <MediaBoxTitle>Media heading</MediaBoxTitle>
+                                <MediaBoxTitle>{this.props.name}</MediaBoxTitle>
                                 <MediaBoxDescription>
                                 Location:
                                 Description:
