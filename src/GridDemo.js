@@ -7,7 +7,7 @@ import UserPanel from './UserPanel';
 
 const m = [{
     label: '1',
-    href: 'javascript:;'
+    href: 'javascript:window.history.go(-2);'
 },
 {
     label: '2',
